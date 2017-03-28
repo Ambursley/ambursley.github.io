@@ -1425,6 +1425,122 @@ body, html {
 
 /*================= BOOKLOUNGE end =================*/
 
+/*===================== Shaunna ===================*/
+
+.bgimg-24,
+.bgimg-25,
+.bgimg-26,
+.bgimg-27,
+.bgimg-28,
+.bgimg-29,
+.bgimg-30,
+.bgimg-31,
+.bgimg-32,
+.bgimg-33,
+.bgimg-34,
+.bgimg-35,
+.bgimg-36,
+.bgimg-37,
+.bgimg-38,
+.bgimg-39,
+.bgimg-40 {
+    position: relative;
+    opacity: 100%;
+    /* opacity: 0.65; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-24 {
+    background-image: url("../img/shaunna/013A3310_edited2.jpg");
+    min-height: 100%;
+}
+
+.bgimg-25 {
+    background-image: url("../img/shaunna/013A3120_edited_wideangle_blur_JE.jpg");
+    height: 100vh;
+}
+
+.bgimg-26 {
+    background-image: url("../img/shaunna/013A3129_edited.jpg");
+    height: 100vh;
+}
+
+.bgimg-27 {
+    background-image: url("../img/shaunna/013A3306_edited.jpg");
+    height: 100vh;
+}
+
+.bgimg-28 {
+    background-image: url("../img/shaunna/013A3312_edited.jpg");
+    height: 100vh;
+}
+
+.bgimg-29 {
+    background-image: url("../img/shaunna/013A3313_edited.jpg");
+    height: 100vh;
+}
+
+.bgimg-30 {
+    background-image: url("../img/shaunna/013A3320_edited.jpg");
+    height: 100vh;
+}
+
+.bgimg-31 {
+    background-image: url("../img/shaunna/013A3435_edited.jpg");
+    height: 100vh;
+}
+
+.bgimg-32 {
+    background-image: url("../img/shaunna/013A3457_edited.jpg");
+    height: 100vh;
+}
+
+.bgimg-33 {
+    background-image: url("../img/shaunna/013A3507_edited2.jpg");
+    height: 100vh;
+}
+
+.bgimg-34 {
+    background-image: url("../img/shaunna/013A3524_edited.jpg");
+    height: 100vh;
+}
+
+.bgimg-35 {
+    background-image: url("../img/shaunna/013A3807.jpg");
+    height: 100vh;
+}
+
+.bgimg-36 {
+    background-image: url("../img/shaunna/013A3809_edited.jpg");
+    height: 100vh;
+}
+
+.bgimg-37 {
+    background-image: url("../img/shaunna/013A3853.jpg");
+    height: 100vh;
+}
+
+.bgimg-38 {
+    background-image: url("../img/shaunna/013A3854.jpg");
+    height: 100vh;
+}
+
+.bgimg-39 {
+    background-image: url("../img/shaunna/013A3857.jpg");
+    height: 100vh;
+}
+
+.bgimg-40 img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*================== Shaunna end ==================*/
+
 .caption {
     position: absolute;
     left: 0;
@@ -1477,7 +1593,24 @@ h3 {
     .bgimg-20,
     .bgimg-21,
     .bgimg-22,
-    .bgimg-23 {
+    .bgimg-23,
+    .bgimg-24,
+    .bgimg-25,
+    .bgimg-26,
+    .bgimg-27,
+    .bgimg-28,
+    .bgimg-29,
+    .bgimg-30,
+    .bgimg-31,
+    .bgimg-32,
+    .bgimg-33,
+    .bgimg-34,
+    .bgimg-35,
+    .bgimg-36,
+    .bgimg-37, 
+    .bgimg-38,
+    .bgimg-39,
+    .bgimg-40 {
         background-attachment: scroll;
         -webkit-background-size: cover;
         -moz-background-size: cover;
