@@ -1256,22 +1256,22 @@ body, html {
 
 .bgimg-2 {
     background-image: url("../img/mienne/perfumebox.jpg");
-    min-height: 600px;
+    height: 100vh;
 }
 
 .bgimg-3 {
     background-image: url("../img/mienne/MagazineMockup.jpg");
-    min-height: 600px;
+    height: 100vh;
 }
 
 .bgimg-4 {
     background-image: url("../img/mienne/MagazineMockup4.jpg");
-    min-height: 600px;
+    height: 100vh;
 }
 
 .bgimg-5 {
     background-image: url("../img/mienne/StreetAd_Mienne.jpg");
-    min-height: 600px;
+    height: 100vh;
 }
 
 .bgimg-6 img {
@@ -1305,17 +1305,17 @@ body, html {
 
 .bgimg-8 {
     background-image: url("../img/kristine/kristinebucais_businesscards.jpg");
-    min-height: 800px;
+    height: 100vh;
 }
 
 .bgimg-9 {
     background-image: url("../img/kristine/KristineBucais_webMockUp2.jpg");
-    min-height: 600px;
+    height: 100vh;
 }
 
 .bgimg-10 {
     background-image: url("../img/kristine/KristineBucais_Billboard.jpg");
-    min-height: 800px;
+    height: 100vh;
 }
 
 .bgimg-11 img {
@@ -1350,22 +1350,22 @@ body, html {
 
 .bgimg-13 {
     background-image: url("../img/billenial/brainstorm2.jpg");
-    min-height: 600px;
+    height: 100vh;
 }
 
 .bgimg-14 {
     background-image: url("../img/billenial/flowchart2.jpg");
-    min-height: 600px;
+    height: 100vh;
 }
 
 .bgimg-15 {
     background-image: url("../img/billenial/wireframe2.jpg");
-    min-height: 600px;
+    height: 100vh;
 }
 
 .bgimg-16 {
     background-image: url("../img/billenial/keyscreens.jpg");
-    min-height: 600px;
+    height: 100vh;
 }
 
 .bgimg-17 img {
