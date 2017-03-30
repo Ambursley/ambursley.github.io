@@ -1435,15 +1435,7 @@ body, html {
 .bgimg-29,
 .bgimg-30,
 .bgimg-31,
-.bgimg-32,
-.bgimg-33,
-.bgimg-34,
-.bgimg-35,
-.bgimg-36,
-.bgimg-37,
-.bgimg-38,
-.bgimg-39,
-.bgimg-40 {
+.bgimg-32 {
     position: relative;
     opacity: 100%;
     /* opacity: 0.65; */
@@ -1464,76 +1456,37 @@ body, html {
 }
 
 .bgimg-26 {
-    background-image: url("../img/shaunna/013A3129_edited.jpg");
-    height: 100vh;
-}
-
-.bgimg-27 {
-    background-image: url("../img/shaunna/013A3306_edited.jpg");
-    height: 100vh;
-}
-
-.bgimg-28 {
     background-image: url("../img/shaunna/013A3312_edited.jpg");
     height: 100vh;
 }
 
-.bgimg-29 {
+.bgimg-27 {
     background-image: url("../img/shaunna/013A3313_edited.jpg");
     height: 100vh;
 }
 
-.bgimg-30 {
-    background-image: url("../img/shaunna/013A3320_edited.jpg");
-    height: 100vh;
-}
-
-.bgimg-31 {
-    background-image: url("../img/shaunna/013A3435_edited.jpg");
-    height: 100vh;
-}
-
-.bgimg-32 {
+.bgimg-28 {
     background-image: url("../img/shaunna/013A3457_edited.jpg");
     height: 100vh;
 }
 
-.bgimg-33 {
-    background-image: url("../img/shaunna/013A3507_edited2.jpg");
-    height: 100vh;
-}
 
-.bgimg-34 {
+.bgimg-29 {
     background-image: url("../img/shaunna/013A3524_edited.jpg");
     height: 100vh;
 }
 
-.bgimg-35 {
+.bgimg-30 {
     background-image: url("../img/shaunna/013A3807.jpg");
     height: 100vh;
 }
 
-.bgimg-36 {
-    background-image: url("../img/shaunna/013A3809_edited.jpg");
-    height: 100vh;
-}
-
-.bgimg-37 {
-    background-image: url("../img/shaunna/013A3853.jpg");
-    height: 100vh;
-}
-
-.bgimg-38 {
+.bgimg-31 {
     background-image: url("../img/shaunna/013A3854.jpg");
     height: 100vh;
 }
 
-.bgimg-39 {
-    background-image: url("../img/shaunna/013A3857.jpg");
-    height: 100vh;
-}
-
-.bgimg-40 img {
+.bgimg-32 img {
     width: 100%;
     height: auto;
 }
@@ -1602,15 +1555,7 @@ h3 {
     .bgimg-29,
     .bgimg-30,
     .bgimg-31,
-    .bgimg-32,
-    .bgimg-33,
-    .bgimg-34,
-    .bgimg-35,
-    .bgimg-36,
-    .bgimg-37, 
-    .bgimg-38,
-    .bgimg-39,
-    .bgimg-40 {
+    .bgimg-32 {
         background-attachment: scroll;
         -webkit-background-size: cover;
         -moz-background-size: cover;
