@@ -435,7 +435,7 @@ h5 {
     display: table;
     height: 100vh;
     width: 100vw;
-    background-color: black;
+/*    background-color: black; */
 }
 
 .box-intro .table-cell {
@@ -1042,11 +1042,12 @@ footer img {
 }
 
 .border p a:hover {
-    color: #999;
+    color: black;
     text-decoration: none;
 }
 
 .border p a:visited {
+    outline: 0 !important;
     text-decoration: none !important;
 }
 
@@ -1435,7 +1436,9 @@ body, html {
 .bgimg-29,
 .bgimg-30,
 .bgimg-31,
-.bgimg-32 {
+.bgimg-32,
+.bgimg-33,
+.bgimg-34 {
     position: relative;
     opacity: 100%;
     /* opacity: 0.65; */
@@ -1493,6 +1496,16 @@ body, html {
 
 
 /*================== Shaunna end ==================*/
+
+.bgimg-33 {
+    background-image: url("../img/013A7086_Darker_r.jpg");
+    height: 100vh;
+}
+
+.bgimg-34 {
+    background-image: url("../img/013A7074_r.jpg");
+    height: 100vh;
+}
 
 .caption {
     position: absolute;
