@@ -987,14 +987,20 @@ footer img {
 }
 */
 
-.container p a:hover {
+.bill p a {
+    color: black !important;
     text-decoration: none;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
 }
 
-.container p a:visited {
-    color: inherit !important;
+.bill p a:hover {
+    color: black !important;
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.bill p a:visited {
+    color: inherit;
     text-decoration: none;
 }
 
@@ -1043,8 +1049,12 @@ footer img {
     text-decoration: none;
 }
 
-.border:hover {
-    color: #999;
+.border :hover {
+    color: black;
+    text-decoration: none;
+}
+.border a:visited {
+    color: inherit;
     text-decoration: none;
 }
 
@@ -1059,7 +1069,7 @@ footer img {
 }
 
 .border p a:visited {
-    outline: 0 !important;
+    color: inherit;
     text-decoration: none !important;
 }
 
