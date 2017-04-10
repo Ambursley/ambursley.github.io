@@ -1460,7 +1460,8 @@ body, html {
 .bgimg-31,
 .bgimg-32,
 .bgimg-33,
-.bgimg-34 {
+.bgimg-34,
+.bgimg-35 {
     position: relative;
     opacity: 100%;
     /* opacity: 0.65; */
@@ -1526,6 +1527,12 @@ body, html {
 
 .bgimg-34 {
     background-image: url("../img/013A7074_r.jpg");
+    height: 100vh;
+}
+
+.bgimg-35 {
+    background-image: url("../img/013A7074_r.jpg");
+    background-color: black;
     height: 100vh;
 }
 
