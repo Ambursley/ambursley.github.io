@@ -1520,6 +1520,8 @@ body, html {
 
 /*================== Shaunna end ==================*/
 
+/*================== Eloise Cover ==================*/
+
 .bgimg-33 {
     background-image: url("../img/013A7086_Darker_r.jpg");
     height: 100vh;
@@ -1530,11 +1532,7 @@ body, html {
     height: 100vh;
 }
 
-.bgimg-35 {
-    background-image: url("../img/013A7074_r.jpg");
-    background-color: black;
-    height: 100vh;
-}
+/*================== Eloise Cover End ==================*/
 
 .caption {
     position: absolute;
@@ -1597,7 +1595,9 @@ h3 {
     .bgimg-29,
     .bgimg-30,
     .bgimg-31,
-    .bgimg-32 {
+    .bgimg-32,
+    .bgimg-33,
+    .bgimg-34 {
         background-attachment: scroll;
         -webkit-background-size: cover;
         -moz-background-size: cover;
