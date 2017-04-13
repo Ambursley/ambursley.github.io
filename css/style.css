@@ -1219,6 +1219,10 @@ textarea:focus {
     color: #fff;
 }
 
+.domain:before {
+    content: "\0040";    /* Unicode character for @ symbol */
+}
+
 
 /* single project page
 ==================================================*/
