@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <meta http-equiv="Content-Type" content="text/html;">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -128,7 +129,8 @@
     <!-- main-container -->
     <div class="container main-container" style="padding-top: 25px; padding-bottom: 25px;">
         <div class="col-md-6">
-            <form action="#" method="post">
+         
+            <form action="index.php" method="post">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="input-contact">
@@ -142,23 +144,34 @@
                             <span>your email</span>
                         </div>
                     </div>
+    <!--
                     <div class="col-md-12">
                         <div class="input-contact">
                             <input type="text" name="object">
                             <span>objective</span>
                         </div>
                     </div>
+    -->
                     <div class="col-md-12">
                         <div class="textarea-contact">
                             <textarea name="message"></textarea>
                             <span>message</span>
                         </div>
                     </div>
+                    
                     <div class="col-md-12">
+                    
+                        <input id="submit" name="submit" type="submit" value="Submit">
+                        <input type="reset" value="Clear">
+                 
+    <!--
                         <a href="#" class="btn btn-box">Send</a>
+    -->
+                    
                     </div>
                 </div>
             </form>
+       
         </div>
 
         <div class="col-md-6">
