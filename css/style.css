@@ -1422,10 +1422,11 @@ body, html {
 /*==================== BOOKLOUNGE ==================*/
 
 .bgimg-18,
-.bgimg-19,
-.bgimg-20,
 .bgimg-21,
-.bgimg-22 {
+.bgimg-22,
+.bgimg-23,
+.bgimg-24,
+.bgimg-25 {
     position: relative;
     opacity: 100%;
     /* opacity: 0.65; */
@@ -1436,31 +1437,46 @@ body, html {
 }
 
 .bgimg-18 {
-    background-image: url("../img/booklounge/bookloungecover.jpg");
-    min-height: 100%;
+    background-image: url("../img/booklounge/bookloungetabcover.jpg");
+    height: 100vh;
 }
 
-.bgimg-19 {
-    background-image: url("../img/billenial/brainstorm2.jpg");
-    min-height: 600px;
+.bgimg-19 img {
+    width: 100%;
+    height: auto;
 }
 
-.bgimg-20 {
-    background-image: url("../img/billenial/flowchart2.jpg");
-    min-height: 600px;
+.bgimg-20 img {
+    width: 100%;
+    height: auto;
 }
 
 .bgimg-21 {
-    background-image: url("../img/billenial/wireframe2.jpg");
-    min-height: 600px;
+    background-image: url("../img/booklounge/bookloungelogo.jpg");
+    height: 100vh;
 }
 
 .bgimg-22 {
-    background-image: url("../img/billenial/keyscreens.jpg");
-    min-height: 600px;
+    background-image: url("../img/booklounge/IPadMockUp_1.jpg");
+    height: 100vh;
 }
 
-.bgimg-23 img {
+.bgimg-23 {
+    background-image: url("../img/booklounge/IPadMockUp_2.jpg");
+    height: 100vh;
+}
+
+.bgimg-24 {
+    background-image: url("../img/booklounge/zoomin.jpg");
+    height: 100vh;
+}
+
+.bgimg-25 {
+    background-image: url("../img/booklounge/IPadMockUp_3.jpg");
+    height: 100vh;
+}
+
+.bgimg-26 img {
     width: 100%;
     height: auto;
 }
@@ -1470,9 +1486,6 @@ body, html {
 
 /*===================== Shaunna ===================*/
 
-.bgimg-24,
-.bgimg-25,
-.bgimg-26,
 .bgimg-27,
 .bgimg-28,
 .bgimg-29,
@@ -1481,7 +1494,10 @@ body, html {
 .bgimg-32,
 .bgimg-33,
 .bgimg-34,
-.bgimg-35 {
+.bgimg-35,
+.bgimg-36,
+.bgimg-37,
+.bgimg-38 {
     position: relative;
     opacity: 100%;
     /* opacity: 0.65; */
@@ -1491,48 +1507,48 @@ body, html {
     background-size: cover;
 }
 
-.bgimg-24 {
+.bgimg-27 {
     background-image: url("../img/shaunna/013A3310_edited2.jpg");
     min-height: 100%;
 }
 
-.bgimg-25 {
+.bgimg-28 {
     background-image: url("../img/shaunna/013A3120_edited_wideangle_blur_JE.jpg");
     height: 100vh;
 }
 
-.bgimg-26 {
+.bgimg-29 {
     background-image: url("../img/shaunna/013A3312_edited.jpg");
     height: 100vh;
 }
 
-.bgimg-27 {
+.bgimg-30 {
     background-image: url("../img/shaunna/013A3313_edited.jpg");
     height: 100vh;
 }
 
-.bgimg-28 {
+.bgimg-31 {
     background-image: url("../img/shaunna/013A3457_edited.jpg");
     height: 100vh;
 }
 
 
-.bgimg-29 {
+.bgimg-32 {
     background-image: url("../img/shaunna/013A3524_edited.jpg");
     height: 100vh;
 }
 
-.bgimg-30 {
+.bgimg-33 {
     background-image: url("../img/shaunna/013A3807.jpg");
     height: 100vh;
 }
 
-.bgimg-31 {
+.bgimg-34 {
     background-image: url("../img/shaunna/013A3854.jpg");
     height: 100vh;
 }
 
-.bgimg-32 img {
+.bgimg-35 img {
     width: 100%;
     height: auto;
 }
@@ -1542,12 +1558,12 @@ body, html {
 
 /*================== Eloise Cover ==================*/
 
-.bgimg-33 {
+.bgimg-36 {
     background-image: url("../img/013A7086_Darker_r.jpg");
     height: 100vh;
 }
 
-.bgimg-34 {
+.bgimg-37 {
     background-image: url("../img/013A7074_r.jpg");
     height: 100vh;
 }
@@ -1617,7 +1633,10 @@ h3 {
     .bgimg-31,
     .bgimg-32,
     .bgimg-33,
-    .bgimg-34 {
+    .bgimg-34,
+    .bgimg-35,
+    .bgimg-36,
+    .bgimg-37 {
         background-attachment: scroll;
         -webkit-background-size: cover;
         -moz-background-size: cover;
