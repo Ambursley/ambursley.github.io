@@ -1662,7 +1662,7 @@ div.screen-content {
 
 /*================== Firstling End ==================*/
 
-/*==================== BOOKLOUNGE ==================*/
+/*==================== PLAYBOOK ==================*/
 
 .bgimg-45,
 .bgimg-46,
@@ -1686,7 +1686,7 @@ div.screen-content {
 
 
 .bgimg-46 {
-    background-image: url("../img/booklounge/bookloungelogo.jpg");
+    background-image: url("../img/playbook/rough1.jpg");
     height: 100vh;
 }
 
@@ -1696,17 +1696,17 @@ div.screen-content {
 }
 
 .bgimg-48 {
-    background-image: url("../img/booklounge/IPadMockUp_2.jpg");
+    background-image: url("../img/playbook/books.jpg");
     height: 100vh;
 }
 
 .bgimg-49 {
-    background-image: url("../img/booklounge/zoomin.jpg");
+    background-image: url("../img/playbook/desktopmockup.jpg");
     height: 100vh;
 }
 
 .bgimg-50 {
-    background-image: url("../img/booklounge/IPadMockUp_3.jpg");
+    background-image: url("../img/playbook/spreads.jpg");
     height: 100vh;
 }
 
@@ -1716,7 +1716,63 @@ div.screen-content {
 }
 
 
-/*================= BOOKLOUNGE end =================*/
+/*================= PLAYBOOK end =================*/
+
+/*==================== MOCCA ==================*/
+
+.bgimg-52,
+.bgimg-53,
+.bgimg-54,
+.bgimg-55,
+.bgimg-56,
+.bgimg-57 {
+    position: relative;
+    opacity: 100%;
+    /* opacity: 0.65; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-52 {
+    background-image: url("../img/mocca/Mocca_Cover.jpg");
+    height: 100vh;
+}
+
+
+.bgimg-53 {
+    background-image: url("../img/mocca/roughs.jpg");
+    height: 100vh;
+}
+
+.bgimg-54 {
+    background-image: url("../img/mocca/moccastuff.jpg");
+    height: 100vh;
+}
+
+.bgimg-55 {
+    background-image: url("../img/mocca/moccastuff2.jpg");
+    height: 100vh;
+}
+
+.bgimg-56 {
+    background-image: url("../img/mocca/Moccafe_Cover.jpg");
+    height: 100vh;
+}
+
+.bgimg-57 {
+    background-image: url("../img/mocca/moccafeitems.jpg");
+    height: 100vh;
+}
+
+.bgimg-58 img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*================= MOCCA end =================*/
 
 .caption {
     position: absolute;
