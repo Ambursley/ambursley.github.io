@@ -1662,6 +1662,7 @@ div.screen-content {
 
 /*================== Firstling End ==================*/
 
+
 /*==================== PLAYBOOK ==================*/
 
 .bgimg-45,
@@ -1683,7 +1684,6 @@ div.screen-content {
     background-image: url("../img/playbook/notebookmockup.jpg");
     height: 100vh;
 }
-
 
 .bgimg-46 {
     background-image: url("../img/playbook/rough1.jpg");
@@ -1718,6 +1718,7 @@ div.screen-content {
 
 /*================= PLAYBOOK end =================*/
 
+
 /*==================== MOCCA ==================*/
 
 .bgimg-52,
@@ -1739,7 +1740,6 @@ div.screen-content {
     background-image: url("../img/mocca/Mocca_Cover.jpg");
     height: 100vh;
 }
-
 
 .bgimg-53 {
     background-image: url("../img/mocca/roughs.jpg");
@@ -1773,6 +1773,159 @@ div.screen-content {
 
 
 /*================= MOCCA end =================*/
+
+
+/*==================== BBB ==================*/
+
+.bgimg-59,
+.bgimg-60,
+.bgimg-61,
+.bgimg-62,
+.bgimg-63,
+.bgimg-64,
+.bgimg-65,
+.bgimg-66,
+.bgimg-67 {
+    position: relative;
+    opacity: 100%;
+    /* opacity: 0.65; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-59 {
+    background-image: url("../img/bbb/bbbposter.jpg");
+    height: 100vh;
+}
+
+.bgimg-60 {
+    background-image: url("../img/bbb/problem.jpg");
+    height: 100vh;
+}
+
+.bgimg-61 {
+    background-image: url("../img/bbb/rough.jpg");
+    height: 100vh;
+}
+
+.bgimg-62 {
+    background-image: url("../img/bbb/breakdowntop.jpg");
+    height: 100vh;
+}
+
+.bgimg-63 {
+    background-image: url("../img/bbb/breakdownbottom.jpg");
+    height: 100vh;
+}
+
+.bgimg-64 {
+    background-image: url("../img/bbb/spurs.jpg");
+    height: 100vh;
+}
+
+.bgimg-65 {
+    background-image: url("../img/bbb/lakers.jpg");
+    height: 100vh;
+}
+
+.bgimg-66 {
+    background-image: url("../img/bbb/heat.jpg");
+    height: 100vh;
+}
+
+.bgimg-67 img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*================= BBB end =================*/
+
+/*==================== BBB ==================*/
+
+.bgimg-68,
+.bgimg-69,
+.bgimg-70,
+.bgimg-71 {
+    position: relative;
+    opacity: 100%;
+    /* opacity: 0.65; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-68 {
+    background-image: url("../img/tq3/tq3header.jpg");
+    height: 100vh;
+}
+
+.bgimg-69 {
+    background-image: url("../img/tq3/boxlayout.jpg");
+    height: 100vh;
+}
+
+.bgimg-70 {
+    background-image: url("../img/tq3/boxmockup.jpg");
+    height: 100vh;
+}
+
+
+.bgimg-71 img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*================= BBB end =================*/
+
+/*==================== aquafresh ==================*/
+
+.bgimg-72,
+.bgimg-73,
+.bgimg-74,
+.bgimg-75,
+.bgimg-76 {
+    position: relative;
+    opacity: 100%;
+    /* opacity: 0.65; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-72 {
+    background-image: url("../img/aquafresh/aquafreshheader.jpg");
+    height: 100vh;
+}
+
+.bgimg-73 {
+    background-image: url("../img/aquafresh/boxlayout.jpg");
+    height: 100vh;
+}
+
+.bgimg-74 {
+    background-image: url("../img/aquafresh/flatlayout.jpg");
+    height: 100vh;
+}
+
+.bgimg-75 {
+    background-image: url("../img/aquafresh/toothpastemockup.jpg");
+    height: 100vh;
+}
+
+
+.bgimg-76 img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*================= aquafresh end =================*/
 
 .caption {
     position: absolute;
@@ -1843,7 +1996,7 @@ h3 {
     .bgimg-37,
     .bgimg-38,
     .bgimg-39,
-    .bgimg-40
+    .bgimg-40,
     .bgimg-41,
     .bgimg-42,
     .bgimg-43,
@@ -1852,7 +2005,31 @@ h3 {
     .bgimg-47,
     .bgimg-48,
     .bgimg-49,
-    .bgimg-50 {
+    .bgimg-50,
+    .bgimg-52,
+    .bgimg-53,
+    .bgimg-54,
+    .bgimg-55,
+    .bgimg-56,
+    .bgimg-57,
+    .bgimg-59,
+    .bgimg-60,
+    .bgimg-61,
+    .bgimg-62,
+    .bgimg-63,
+    .bgimg-64,
+    .bgimg-65,
+    .bgimg-66,
+    .bgimg-67,
+    .bgimg-68,
+    .bgimg-69,
+    .bgimg-70,
+    .bgimg-71,
+    .bgimg-72,
+    .bgimg-73,
+    .bgimg-74,
+    .bgimg-75,
+    .bgimg-76 {
         background-attachment: scroll;
         -webkit-background-size: cover;
         -moz-background-size: cover;
