@@ -1379,7 +1379,14 @@ body, html {
 .bgimg-13,
 .bgimg-14,
 .bgimg-15,
-.bgimg-16 {
+.bgimg-16,
+.bgimg-77,
+.bgimg-78,
+.bgimg-79,
+.bgimg-80,
+.bgimg-81,
+.bgimg-82,
+.bgimg-83 {
     position: relative;
     opacity: 100%;
     /* opacity: 0.65; */
@@ -1390,31 +1397,61 @@ body, html {
 }
 
 .bgimg-12 {
-    background-image: url("../img/billenial/billenialtop.jpg");
+    background-image: url("../img/billenial/iphonemock.jpg");
     min-height: 100%;
 }
 
 .bgimg-13 {
-    background-image: url("../img/billenial/brainstorm2.jpg");
+    background-image: url("../img/billenial/slidesArtboard-2.png");
     height: 100vh;
 }
 
 .bgimg-14 {
-    background-image: url("../img/billenial/flowchart2.jpg");
+    background-image: url("../img/billenial/slidesArtboard-3.png");
     height: 100vh;
 }
 
 .bgimg-15 {
-    background-image: url("../img/billenial/wireframe2.jpg");
+    background-image: url("../img/billenial/slidesArtboard-4.png");
     height: 100vh;
 }
 
 .bgimg-16 {
-    background-image: url("../img/billenial/keyscreens.jpg");
+    background-image: url("../img/billenial/slidesArtboard-6.png");
     height: 100vh;
 }
 
-.bgimg-17 img {
+.bgimg-77 {
+    background-image: url("../img/billenial/slidesArtboard-5.png");
+    height: 100vh;
+}
+
+.bgimg-78 {
+    background-image: url("../img/billenial/slidesArtboard-17.png");
+    height: 100vh;
+}
+
+.bgimg-79 {
+    background-image: url("../img/billenial/slidesArtboard-10.png");
+    height: 100vh;
+}
+
+.bgimg-80 {
+    background-image: url("../img/billenial/slidesArtboard-11.png");
+    height: 100vh;
+}
+
+.bgimg-81 {
+    background-image: url("../img/billenial/slidesArtboard-12.png");
+    height: 100vh;
+}
+
+.bgimg-82 {
+    background-image: url("../img/billenial/slidesArtboard-13.png");
+    height: 100vh;
+}
+
+.bgimg-83 img {
     width: 100%;
     height: auto;
 }
@@ -1843,6 +1880,7 @@ div.screen-content {
 
 /*================= BBB end =================*/
 
+
 /*==================== tq3 ==================*/
 
 .bgimg-68,
@@ -1873,7 +1911,6 @@ div.screen-content {
     height: 100vh;
 }
 
-
 .bgimg-71 img {
     width: 100%;
     height: auto;
@@ -1881,6 +1918,7 @@ div.screen-content {
 
 
 /*================= tq3 end =================*/
+
 
 /*==================== aquafresh ==================*/
 
@@ -1917,7 +1955,6 @@ div.screen-content {
     background-image: url("../img/aquafresh/toothpastemockup.jpg");
     height: 100vh;
 }
-
 
 .bgimg-76 img {
     width: 100%;
@@ -2029,7 +2066,14 @@ h3 {
     .bgimg-73,
     .bgimg-74,
     .bgimg-75,
-    .bgimg-76 {
+    .bgimg-76,
+    .bgimg-77,
+    .bgimg-78,
+    .bgimg-79,
+    .bgimg-80,
+    .bgimg-81,
+    .bgimg-82,
+    .bgimg-83 {
         background-attachment: scroll;
         -webkit-background-size: cover;
         -moz-background-size: cover;
