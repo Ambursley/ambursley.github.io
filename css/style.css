@@ -1964,6 +1964,57 @@ div.screen-content {
 
 /*================= aquafresh end =================*/
 
+
+/*==================== mylogo ==================*/
+
+.bgimg-84,
+.bgimg-85,
+.bgimg-86,
+.bgimg-87,
+.bgimg-88,
+.bgimg-89 {
+    position: relative;
+    opacity: 100%;
+    /* opacity: 0.65; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-84 {
+    background-image: url("../img/mylogo/intro.jpg");
+    height: 100vh;
+}
+
+.bgimg-85 {
+    background-image: url("../img/mylogo/rough1.jpg");
+    height: 100vh;
+}
+
+.bgimg-86 {
+    background-image: url("../img/mylogo/rough2.jpg");
+    height: 100vh;
+}
+
+.bgimg-87 {
+    background-image: url("../img/mylogo/oldnew.jpg");
+    height: 100vh;
+}
+
+.bgimg-88 {
+    background-image: url("../img/mylogo/code.jpg");
+    height: 100vh;
+}
+
+.bgimg-89 img {
+    width: 100%;
+    height: auto;
+}
+
+
+/*================= mylogo end =================*/
+
 .caption {
     position: absolute;
     left: 0;
@@ -2073,7 +2124,13 @@ h3 {
     .bgimg-80,
     .bgimg-81,
     .bgimg-82,
-    .bgimg-83 {
+    .bgimg-83,
+    .bgimg-84,
+    .bgimg-85,
+    .bgimg-86,
+    .bgimg-87,
+    .bgimg-88,
+    .bgimg-89 {
         background-attachment: scroll;
         -webkit-background-size: cover;
         -moz-background-size: cover;
