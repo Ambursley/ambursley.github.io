@@ -2044,7 +2044,7 @@ h3 {
 
 /* Turn off parallax scrolling for tablets and phones */
 
-/*
+
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1,
     .bgimg-2,
@@ -2132,14 +2132,14 @@ h3 {
     .bgimg-87,
     .bgimg-88,
     .bgimg-89 {
-        background-attachment: scroll;
+        background-attachment: fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
     }
 }
-*/
+
 
 }
 
