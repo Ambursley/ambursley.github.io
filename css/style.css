@@ -2133,14 +2133,11 @@ h3 {
     .bgimg-89 {
         
         background-attachment: scroll;
-        width: 100%;
-        height: auto;
-/*
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-*/
+
     }
 }
 
