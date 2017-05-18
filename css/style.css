@@ -1620,7 +1620,8 @@ body, html {
 .bgimg-40,
 .bgimg-41,
 .bgimg-42,
-.bgimg-43 {
+.bgimg-43,
+.bgimg-90 {
     position: relative;
     opacity: 100%;
     /* opacity: 0.65; */
@@ -1642,6 +1643,11 @@ body, html {
 
 .bgimg-40 {
     background-image: url("../img/firstling/theidea.jpg");
+    height: 100vh;
+}
+
+.bgimg-90 {
+    background-image: url("../img/firstling/flowchart.jpg");
     height: 100vh;
 }
 
@@ -2130,7 +2136,8 @@ h3 {
     .bgimg-86,
     .bgimg-87,
     .bgimg-88,
-    .bgimg-89 {
+    .bgimg-89,
+    .bgimg-90 {
         
         background-attachment: scroll;
         -webkit-background-size: cover;
