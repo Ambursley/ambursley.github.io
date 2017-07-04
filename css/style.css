@@ -1995,7 +1995,8 @@ div.screen-content {
 .bgimg-86,
 .bgimg-87,
 .bgimg-88,
-.bgimg-89 {
+.bgimg-89,
+.bgimg-91 {
     position: relative;
     opacity: 100%;
     /* opacity: 0.65; */
@@ -2027,6 +2028,11 @@ div.screen-content {
 
 .bgimg-88 {
     background-image: url("../img/mylogo/code.jpg");
+    height: 100vh;
+}
+
+.bgimg-91 {
+    background-image: url("../img/013A7074_r_bw.jpg");
     height: 100vh;
 }
 
@@ -2154,7 +2160,8 @@ h3 {
     .bgimg-87,
     .bgimg-88,
     .bgimg-89,
-    .bgimg-90 {
+    .bgimg-90,
+    .bgimg-91 {
         
         background-attachment: scroll;
         -webkit-background-size: cover;
