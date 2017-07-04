@@ -1091,6 +1091,23 @@ footer img {
     text-decoration: none !important;
 }
 
+.left {
+    padding: 150px 0 20px 50px;
+}
+
+.cat-skill {
+    padding: 0px 7px 10px 0;
+    text-align: left;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.cat-skill li {
+    display: inline;
+    padding-right: 10px;
+}
+
+
 
 /* Services page
 ==================================================*/
