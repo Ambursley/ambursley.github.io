@@ -1237,9 +1237,9 @@ textarea:focus {
     margin-right: 20px;
 }
 
-.btn-box {
+#submit {
     background: #999;
-    padding: 10px 50px;
+    padding: 10px 20px;
     border-radius: 0;
     color: #fff;
     margin-top: 20px;
@@ -1248,9 +1248,9 @@ textarea:focus {
     font-weight: 500;
 }
 
-.btn-box:hover,
-.btn-box:focus {
-    background: #999;
+#submit:hover,
+#submit:focus {
+    background: #404040;
     color: #fff;
 }
 
