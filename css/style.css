@@ -72,7 +72,7 @@ h3 {
 }
 
 h5 {
-    color: #ffffff;
+    color: #999;
 }
 
 
@@ -449,7 +449,7 @@ h5 {
 }
 
 b i:last-child {
-    color: #999 !important;
+    color: #eab012 !important;
 }
 
 .box-intro h5 {
