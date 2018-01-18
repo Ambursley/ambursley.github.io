@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
+    <meta http-equiv="Content-Type" content="text/html;">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name=keywords  content="Billenial,app,Product,uxui,code,Portfolio,Graphic,Design,Designer,Eloise,Ambursley,Freelance," />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Eloise Ambursley : About</title>
-    <link rel="icon" href="img/tab2.png" type="image/x-icon">
+    <title>Eloise Ambursley : Contact</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link rel="icon" href="img/tab2.png" type="image/x-icon">
 
     <!-- main css -->
     <link href="css/style.css" rel="stylesheet">
@@ -27,6 +27,19 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <script>
+function validateForm() {
+    var x = document.forms["myForm"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Please enter a valid email address. Thank you!");
+        return false;
+    }
+}
+</script>
+    
 </head>
 
 <body>
@@ -46,12 +59,13 @@
         <!-- box-header -->
         <header class="box-header">
             <div class="box-logo">
-                <a href="index.html"><img src="img/logo.png" width="100px" alt="Logo"></a>
+                <a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
             </div>
             <!-- box-nav -->
             <a class="box-primary-nav-trigger" href="#0">
                 <span class="box-menu-text"><!--Menu--></span><span class="box-menu-icon"></span>
             </a>
+            <!-- box-primary-nav-trigger -->
         </header>
         <!-- end box-header -->
 
@@ -60,209 +74,210 @@
             <ul class="box-primary-nav">
                 <li class="box-label">Menu</li>
 
-                <li><a href="index.html">Portfolio</a></li>
-                <li><a href="about.html">About me</a><i class="ion-ios-circle-filled color"></i></li>
-<!--
-                <li><a href="services.html">Services</a></li>
--->
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">The Works</a> </li>
+                <li><a href="contact.html">The Wonder</a><i class="ion-ios-circle-filled color"></i></li>
+                <!--          <li><a href="services.html">Services</a></li>
+               -->
 
 
 
                 <li class="box-label">Follow me</li>
-  <!-- 
+                <!-- 
                 <li class="box-social">
                     <a href="#0"><img src="img/social/behance.png" width="30px"></a>
                 </li>
-  
+    
                 <li class="box-social">
                     <a href="#0"><img src="img/social/facebook.png" width="30px"></a>
                 </li>
--->
-                <li class="box-social">
-                    <a href="https://instagram.com/E_Ambursley" target="_blank"><img src="img/social/instagram.png" width="30px"></a>
-                </li>
-                <li class="box-social">
-                    <a href="https://about.me/eloiseambursley" target="_blank"><img src="img/social/aboutme.png" width="30px"></a>
+      -->
+               <li class="box-social">
+                    <a href="https://twitter.com/E_Ambursley" target="_blank"><img src="img/social/twitter.png" width="30px"></a>
                 </li>
 
                 <li class="box-social">
-                    <a href="https://twitter.com/E_Ambursley" target="_blank"><img src="img/social/twitter.png" width="30px"></a>
+                    <a href="https://www.linkedin.com/in/eloise-ambursley" target="_blank"><img src="img/social/linkedin.png" width="30px"></a>
                 </li>
+                  
+                   <li class="box-social">
+                    <a href="https://instagram.com/E_Ambursley" target="_blank"><img src="img/social/instagram.png" width="30px"></a>
+                </li>
+                <!--
+                <li class="box-social">
+                    <a href="https://about.me/eloiseambursley" target="_blank"><img src="img/social/aboutme.png" width="30px"></a>
+                </li>
+-->
+               
                 <li class="box-social">
                     <a href="https://medium.com/@E_Ambursley" target="_blank"><img src="img/social/medium.png" width="30px"></a>
                 </li>
-                <li class="box-social">
-                    <a href="https://www.linkedin.com/in/eloise-ambursley" target="_blank"><img src="img/social/linkedin.png" width="30px"></a>
-                </li>
+
                 <li class="box-social">
                     <a href="https://www.goodreads.com/E_Ambursley" target="_blank"><img src="img/social/goodreads.png" width="30px"></a>
                 </li>
             </ul>
         </nav>
         <!-- end nav -->
+
     </div>
 
-    <!-- Top bar -->
-
+    <!-- top bar -->
     <!--
     <div class="top-bar">
-        <h1>About Me</h1>
-        <p><a href="#">Home</a> / About me</p>
+        <h1>contact Me</h1>
+        <p><a href="#">Home</a> / Contact Me</p>
     </div>
-    -->
-    <!-- end Top bar -->
-    <div class="bgimg-37">
-
-
-        <div class="caption" style="margin-top: 150px;">
-            <h4 style="letter-spacing: 1px; text-transform: uppercase; font-size: 20px; color: white;">Product Designer and Entrepreneur</h4> <h4 style="letter-spacing: 1px; text-transform: uppercase; font-size: 20px; color: white;"> with a special interest in Finance</h4>
-        </div>
-        
-        <div class="mouse">
-                <div class="scroll"></div>
-            </div>
-        
-    </div>
-    
-    <div style="position:relative;">
-            <div style="color:#ddd;background-color:#000000;text-align:center; padding-top: 150px; padding-bottom: 150px;">
-               <p>My Philosophy</p>
-                <p style="text-transform: uppercase; text-spacing: 1px;">&ldquo;Get cultured. Then your design will never be limited to your biasses.&#8221;</p>
-            </div>
-        </div>
-
-
-   
-    <!-- Main container -->
-    <div class="container main-container clearfix">
-
-        <!-- 
-        <div class="col-md-6">
-            <img src="http://placehold.it/1200x800" class="img-responsive" alt="" />
-        </div>
-        <div class="col-md-6">
-           <h3 class="uppercase">About Me </h3>
-           <h5>Creative & Lorem ipsum dolor sit amet</h5>
-           <div class="h-30"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliter enim nosmet ipsos nosse non possumus. Inscite autem medicinae et gubernationis ultimum cum ultimo sapientiae comparatur. Tecum optime, deinde etiam cum mediocri amico. Et nemo nimium beatus est; Ac ne plura complectar-sunt enim innumerabilia-, bene laudata virtus voluptatis aditus </p>
-
-            <p>Tum ille: Tu autem cum ipse tantum librorum habeas, quos hic tandem requiris? Esse enim quam vellet iniquus iustus poterat inpune. </p>
-            <div class="h-10"></div>
-           
-            <ul class="social-ul">
-                <li class="box-social"><a href="#0"><i class="ion-social-facebook"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-instagram-outline"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-twitter"></i></a></li>
-                <li class="box-social"><a href="#0"><i class="ion-social-linkedin"></i></a></li>
-            </ul>
-        </div>
-        
-        -->
-
-        <div style="color: #777;background-color:white;text-align:center; padding: 20px 100px 20px 100px; text-align: justify;">
-           <h4 style="text-transform: none; padding-top: 20px; text-transform: uppercase; font-size: 16px; letter-spacing: 2px;">About Me</h4>
-
-           <div class="bill" style="margin-top: 20px; text-align: center;">
-            <p>
-Co-Founder of <a href="http://billenialapp.com/" target="_blank">Billenial App</a> 
-and Founder of Playbook Planner.
-            </p>
-            </div>
-            <p style="font-size: 10px; text-align: center;"> 
-All Rights Reserved Ambursley Inc.
-            </p>
-            <p>
-My name is Eloise Ambursley. My motto, "Get Cultured," comes from my interest in diversity and how different cultures approach similar problems in different ways. I've spent some time volunteering abroad and have discovered how poverty can unlock creativity and cultivate resourcefulness, I've seen this in the people of the Philippines. My eyes have also opened to the opportunities hidden in history, this I've seen through my travels on the cobble streets of Europe. From these experiences, it has shaped the way I view the world and how I can interact with it through my own design solutions. I believe design is the consistent thread that flows through all cultures and binds us as one. Our approaches may be different but our purpose is one in the same which is, designing for solution and beauty. Thus, I've found the value in self-initiated projects. Most of my portfolio has come from being inspired by the world, addressing my own consumer pains, and creating possible solutions. I am proud to say that two of my projects are actually coming to life.</p>
-           <p>
-A very true statement is, "If you cook, they will come." I love food. I also love the culture surrounding food. Not just the different ingredients that create a delicious dish, but the power food has to bring people together, the power it has to stir a person's curiosity. Food is the simplest way to introduce one's culture/ethnicity. Food is the simplest way to welcome your new neighbour to the community. Like food, design also requires certain ingredients, certain tools, and a collaboration of people with different backgrounds, talents, skills, and of course, different and important experiences.    
-           </p>
-           <p>
-I enjoy a good meal, I enjoy the stories behind design, I enjoy the process and collaboration towards a solution. If you value the same things, connect with me and let's "cook" together. Nothing beats a great conversation around a table of good food. 
-           </p>
-            <p>
-I enjoy building a company’s brand and orchestrating an amazing end-user experience. I especially thrive in a team oriented environment with a purposeful culture. 
-            </p>
-            <p>
-Skilled in: UXUI, Branding, Front-End Development,  
-Prototyping, Editorial, Typography, Videography, Photography, Packaging, Creative Writing, and Public Speaking. </p>
-
-            <ul class="cat-ul" style="margin-top: 20px;">
-                <li><img src="img/skillsicon/Ai.png" width="50px"></li>
-                <li><img src="img/skillsicon/Ps.png" width="50px"></li>
-                <li><img src="img/skillsicon/Lr.png" width="50px"></li>
-                <li><img src="img/skillsicon/Id.png" width="50px"></li>
-                <li><img src="img/skillsicon/Pr.png" width="50px"></li>
-                <li><img src="img/skillsicon/Ae.png" width="50px"></li>
-                <li><img src="img/skillsicon/Au.png" width="50px"></li>
-            </ul>
-
-            <ul class="cat-ul">
-                <li><img src="img/skillsicon/canon.png" width="50px"></li>
-                <li><img src="img/skillsicon/sketch.png" width="50px"></li>
-                <li><img src="img/skillsicon/pixate.png" width="50px"></li>
-                <li><img src="img/skillsicon/brackets.png" width="50px"></li>
-                <li><img src="img/skillsicon/h5.png" width="50px"></li>
-                <li><img src="img/skillsicon/c3.png" width="50px"></li>
-                <li><img src="img/skillsicon/java.png" width="50px"></li>
-            </ul>
-
-            <p style="text-align:center; margin-top: 70px; letter-spacing: 2px;">FOLLOW ME</p>
-
-            <ul class="cat-ul">
-<!--  
-                <li class="box-social">
-                    <a href="#0"><img src="img/social/behance2.png" width="25px"></a>
-                </li>
-               
-                <li class="box-social">
-                    <a href="#0"><img src="img/social/facebook2.png" width="30px"></a>
-                </li>
 -->
-                <li class="box-social">
-                    <a href="https://instagram.com/E_Ambursley" target="_blank"><img src="img/social/instagram2.png" width="25px"></a>
-                </li>
-                <li class="box-social">
-                    <a href="https://about.me/eloiseambursley" target="_blank"><img src="img/social/aboutme2.png" width="25px"></a>
-                </li>
+    <!-- end top bar -->
 
+    <div class="bgimg-91">
+<!--
+        <div class="caption" style="margin-top: 150px">
+            <span class="border">LET'S COOK TOGETHER</span>
+        </div>
+-->        
+       
+       
+        <div class="left">
+
+           <h1 style="line-height: 55px;">ELOISE <br>AMBURSLEY</h1>
+           <h2 style="color: #393939; font-size: 20px; line-height: 25px;"><i>Designer, Entrepreneur, and Techie<br> with a special interest in Finance</i></h2>
+<!--
+           <p style="color: #393939">Growing up, I was really good at math, I was even put into a <i>"Gifted and Enriched" Program</i>. My mother is an accountant, so it was always expected of me to one day become an accountant. But my grandfather also noticed my curiosity and eagerness in building and inventing. So in highschool, I resolved to become an architecht since it was math and building put together. But it just didn't seem right. Finanlly, I took a class called ComTech. I learned about computer programs such as Photoshop and Illustrator. So when I got to college I decided to study Graphic Design. The irony though was whenever our professors would ask what professional title we hope to hold, "Graphic Designer," "Art Director," etc. just didn't resignate with me. So, I struggled in school because I didn't want to be employed as a "Graphic Designer."</p>
+      -->     
+            <h4 style="font-weight: 400; font-size: 15px; color: #393939; padding-top: 30px;">Currently</h4>
+            <ul style="margin: 0; padding: 0; list-style-position:inside; list-style-type: none;">
+                <li>Co-Founder &amp; CEO, <a href="http://billenialapp.com" target="_blank" style="color: black;">Billenial</a></li>
+                <li>Product Designer, <a href="http://www.youxlabs.ca" target="_blank" style="color: black;">You X Ventures</a></li>
+                <li>Creating, <a href="gatekeep.html" target="_blank" style="color: black;">Playbook Planner</a></li>
+                <li>Sometimes, <a href="#" style="color: black;">Chess Champ</a></li>
+                <li>Always, <a href="https://youtu.be/hDgcJcoSy7g?t=3m50s" target="_blank" style="color: black;">A Blessed Wife</a></li>
+            </ul>
+<!--
+            <h4 style="font-weight: 400; font-size: 15px; color: black;">Some Things I Know</h4>
+            <ul class="cat-skill">
+                <li><img src="img/skillsicon/Ai.png" width="25px"></li>
+                <li><img src="img/skillsicon/Ps.png" width="25px"></li>
+                <li><img src="img/skillsicon/Lr.png" width="25px"></li>
+                <li><img src="img/skillsicon/Id.png" width="25px"></li>
+                <li><img src="img/skillsicon/Pr.png" width="25px"></li>
+                <li><img src="img/skillsicon/Ae.png" width="25px"></li>
+                <li><img src="img/skillsicon/Au.png" width="25px"></li>
+            </ul>
+
+            <ul class="cat-skill">
+                <li><img src="img/skillsicon/canon.png" width="25px"></li>
+                <li><img src="img/skillsicon/sketch.png" width="25px"></li>
+                <li><img src="img/skillsicon/invision.png" width="25px"></li>
+                <li><img src="img/skillsicon/pixate.png" width="25px"></li>
+                <li><img src="img/skillsicon/brackets.png" width="25px"></li>
+                <li><img src="img/skillsicon/h5.png" width="25px"></li>
+                <li><img src="img/skillsicon/c3.png" width="25px"></li>
+                <li><img src="img/skillsicon/java.png" width="25px"></li>
+            </ul>
+           --> 
+           <h4 style="font-weight: 400; font-size: 15px; color: #393939; padding-top: 20px;">Connect with Me</h4>
+            <ul class="cat-skill">
                 <li class="box-social">
                     <a href="https://twitter.com/E_Ambursley" target="_blank"><img src="img/social/twitter2.png" width="25px"></a>
-                </li>
-                <li class="box-social">
-                    <a href="https://medium.com/@E_Ambursley" target="_blank"><img src="img/social/medium2.png" width="25px"></a>
                 </li>
                 <li class="box-social">
                     <a href="https://www.linkedin.com/in/eloise-ambursley" target="_blank"><img src="img/social/linkedin2.png" width="25px"></a>
                 </li>
                 <li class="box-social">
+                    <a href="https://instagram.com/E_Ambursley" target="_blank"><img src="img/social/instagram2.png" width="25px"></a>
+                </li>
+                <li class="box-social">
+                    <a href="https://medium.com/@E_Ambursley" target="_blank"><img src="img/social/medium2.png" width="25px"></a>
+                </li>
+                <li class="box-social">
                     <a href="https://www.goodreads.com/E_Ambursley" target="_blank"><img src="img/social/goodreads2.png" width="25px"></a>
                 </li>
+                            <a href="#bottom"><p style="font-size: 20px; font-weight: 400; color: #555; margin-top: 20px; padding-bottom: 10px;">&#x21E9;</p></a>
+                
             </ul>
-           
-            <!--- 
-            <div class="resume" style="text-align: center; padding-top: 70px;">
-            <a href="http://ambursley.com/img/EloiseAmbursleyResume.pdf" target="_blank">Click to download my resume</a>
-            </div>
+    <!--        
+            <p style="font-size: 12px; font-weight: 400; color: #555;">contactme<span class="domain">ambursley.com</span></p>
 -->
-        </div>
- 
 
-        <div style="position: relative;">
-            <div style="background-color: white;text-align:center; padding: 40px; text-align: justify;">
-             
-                <div class="border" style="margin:0 auto; width: 230px;">
-                    <a href="contact.html" target="_blank">
-                        <p style="text-align: center; letter-spacing: 2px; border-style: solid; border-width: 1px;">LET'S COOK TOGETHER</p>
-                    </a>
-                </div>
-            </div>
+              
+               
         </div>
+       
+       
+        <div class="mouse">
+                <div class="scroll"></div>
+            </div>
 
     </div>
-    <!-- end Main container -->
 
-  
+    <!-- main-container -->
+    <div class="container main-container" style="padding-top: 25px; padding-bottom: 25px;">
+       
+               <div class="col-md-6">
+            <h3 class="text-uppercase">DROP ME A MESSAGE</h3>
+  <!--          <h5>And I'll get back to you asap.</h5> -->
+            <div class="h-30"></div>
+            <p>I'd love to get to know you and about your endeavours! Please complete the contact form or contact me directly at my email address provided below.</p>
+ <!--           <p>I am available for hire, freelance, collaboration, and bookings. Please specify your interest. For any other inquiries, you can also drop your comments and questions here. Thank you!</p>
+           -->
+            <div class="contact-info">
+    <!--            <p><i class="ion-android-call"></i> 416-111-1111</p> -->
+                <p><i class="ion-ios-email"></i> contactme<span class="domain">ambursley.com</span></p>
+            </div>
+        </div>
+       
+        <div class="col-md-6">
+         
+            <form name="myForm" action="http://www.focuspocus.io/magic/ambursley.eloise@gmail.com" onsubmit="return validateForm();" method="post">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="name" required>
+                            <span>your name</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-contact">
+                            <input type="text" name="email" required>
+                            <span>your email</span>
+                        </div>
+                    </div>
+    <!--
+                    <div class="col-md-12">
+                        <div class="input-contact">
+                            <input type="text" name="object">
+                            <span>objective</span>
+                        </div>
+                    </div>
+    -->
+                    <div class="col-md-12">
+                        <div class="textarea-contact">
+                            <textarea name="message" required></textarea>
+                            <span>message</span>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-12">
+                    
+                        <input id="submit" name="submit" type="submit" value="Submit">
+                        <input id="submit" type="reset" value="Clear">
+                 
+    <!--
+                        <a href="#" class="btn btn-box">Send</a>
+    -->
+                    
+                    </div>
+                </div>
+            </form>
+       
+        </div>
+
+
+
+
+    </div>
+    <!-- end main-container -->
 
     <!-- footer -->
     <footer>
@@ -277,36 +292,38 @@ Prototyping, Editorial, Typography, Videography, Photography, Packaging, Creativ
                     <a href="index.html"><img src="img/logo.png" width="100px" alt="Logo"></a>
                 </div>
                 <li class="copyright">Copyright &copy; 2017 Eloise Ambursley</li>
-   <!-- 
+    <!-- 
                 <li class="box-social">
                     <a href="#0"><img src="img/social/behance.png" width="30px"></a>
                 </li>
- 
+
                 <li class="box-social">
                     <a href="#0"><img src="img/social/facebook.png" width="30px"></a>
                 </li>
-        -->            
-                <li class="box-social">
-                    <a href="https://instagram.com/E_Ambursley" target="_blank"><img src="img/social/instagram.png" width="30px"></a>
-                </li>
-                <li class="box-social">
-                    <a href="https://about.me/eloiseambursley" target="_blank"><img src="img/social/aboutme.png" width="30px"></a>
-                </li>
-
+        --> 
                 <li class="box-social">
                     <a href="https://twitter.com/E_Ambursley" target="_blank"><img src="img/social/twitter.png" width="30px"></a>
                 </li>
-                <li class="box-social">
-                    <a href="https://medium.com/@E_Ambursley" target="_blank"><img src="img/social/medium.png" width="30px"></a>
-                </li>
+                
                 <li class="box-social">
                     <a href="https://www.linkedin.com/in/eloise-ambursley" target="_blank"><img src="img/social/linkedin.png" width="30px"></a>
                 </li>
+                
+                <li class="box-social">
+                    <a href="https://instagram.com/E_Ambursley" target="_blank"><img src="img/social/instagram.png" width="30px"></a>
+                </li>
+
+           
+                <li class="box-social">
+                    <a href="https://medium.com/@E_Ambursley" target="_blank"><img src="img/social/medium.png" width="30px"></a>
+                </li>
+
                 <li class="box-social">
                     <a href="https://www.goodreads.com/E_Ambursley" target="_blank"><img src="img/social/goodreads.png" width="30px"></a>
                 </li>
             </ul>
         </div>
+        <a id="bottom"></a>
     </footer>
     <!-- end footer -->
 
