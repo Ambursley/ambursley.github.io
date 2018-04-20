@@ -359,7 +359,7 @@ header {
 @media screen and (max-height: 800px) {
     #face {
         bottom: auto;
-        top: 95px;
+        top: 100px;
     }
 }
 
