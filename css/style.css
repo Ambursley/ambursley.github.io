@@ -359,7 +359,7 @@ header {
 @media screen and (max-height: 800px) {
     #face {
         bottom: auto;
-        top: 100px;
+        top: 380px;
         width: 60%;
     }
 }
@@ -372,13 +372,13 @@ header {
 
 @media screen and (max-width: 1340px) {
     #face {
-        width: 60%;
+        width: 30%;
     }
 }
 
 @media screen and (max-width: 800px) {
     #face {
-        width: 50%;
+        width: 60%;
     }
 }
 
