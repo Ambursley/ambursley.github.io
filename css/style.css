@@ -359,7 +359,7 @@ header {
 @media screen and (max-height: 800px) {
     #face {
         bottom: auto;
-        top: 150px;
+        top: 80px;
     }
 }
 
@@ -377,8 +377,6 @@ header {
 
 @media screen and (max-width: 800px) {
     #face {
-        bottom: 0;
-        top: 200px;
         width: 50%;
     }
 }
@@ -389,10 +387,7 @@ header {
 }
 
 @media screen and (max-height: 940px) {
-    #face {
-        bottom: 0;
-        top: 200px;
-        width: 50%;
+
     }
     #links {
         bottom: auto;
