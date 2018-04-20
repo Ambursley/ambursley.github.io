@@ -1,8 +1,12 @@
+@import url("https://use.typekit.net/zpj1adb.css");
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
+
+
+
 /* ================================================================
    HTML5 Boilerplate CSS:
    ================================================================ */
-@import url("https://use.typekit.net/zpj1adb.css");
-@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
+
 
 
 article,
@@ -308,9 +312,7 @@ td {
 }
 
 
-/* ================================================================
-   html, body, nav, hgroup, section, article,  styles and stuff...
-   ================================================================ */
+
 
 html {
     height: 100%;
