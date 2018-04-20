@@ -360,6 +360,7 @@ header {
     #face {
         bottom: auto;
         top: 100px;
+        width: 60%;
     }
 }
 
