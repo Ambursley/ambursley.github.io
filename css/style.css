@@ -359,9 +359,16 @@ header {
 @media screen and (max-height: 800px) {
     #face {
         bottom: auto;
-        top: 380px;
+        top: 100px;
+    }
+}
+
+@media only screen 
+    and (min-width : 1824px) {
+        #face {
         width: 60%;
     }
+        
 }
 
 #face img {
@@ -372,13 +379,13 @@ header {
 
 @media screen and (max-width: 1340px) {
     #face {
-        width: 30%;
+        width: 60%;
     }
 }
 
 @media screen and (max-width: 800px) {
     #face {
-        width: 60%;
+        width: 50%;
     }
 }
 
