@@ -363,8 +363,7 @@ header {
     }
 }
 
-@media only screen 
-    and (min-width : 1824px) {
+@media only screen and (min-width : 1824px) {
         #face {
         width: 60%;
     }
@@ -385,7 +384,7 @@ header {
 
 @media screen and (max-width: 800px) {
     #face {
-        width: 50%;
+        width: auto;
     }
 }
 
