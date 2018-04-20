@@ -391,7 +391,7 @@ header {
 @media screen and (max-height: 940px) {
     #face {
         bottom: 0;
-        top: 125px;
+        top: 200px;
         width: 50%;
     }
     #links {
