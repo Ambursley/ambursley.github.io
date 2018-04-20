@@ -377,7 +377,7 @@ header {
 
 @media screen and (max-width: 800px) {
     #face {
-        width: auto;
+        width: 50%;
     }
 }
 
@@ -387,6 +387,9 @@ header {
 }
 
 @media screen and (max-height: 940px) {
+    #face {
+        width: 50%;
+    }
     #links {
         bottom: auto;
         position: relative;
