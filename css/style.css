@@ -76,11 +76,11 @@ a {
 }
 
 a:visited {
-    color: #6621E9
+    color: #7021FF
 }
 
 a:hover {
-    color: #6621E9
+    color: #7021FF
 }
 
 a:focus {
@@ -330,14 +330,14 @@ body {
 }
 
 header {
-    margin: 0 0 80px;
+    margin: 0 0 60px;
     position: relative;
     z-index: 2;
 }
 
 #logo {
     width: 200px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 #left {
@@ -346,7 +346,7 @@ header {
 }
 
 #currently {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 #face {
@@ -398,7 +398,7 @@ header {
     #links {
         bottom: auto;
         position: relative;
-        margin: 40px 0;
+        margin: 50px 0;
     }
 }
 
@@ -484,7 +484,7 @@ a:hover {
 }
 
 p>a:hover {
-    color: #6621E9;
+    color: #7021FF;
 }
 
 a:active,
@@ -505,10 +505,10 @@ a:focus {}
         transition: all 0.2s ease-in-out;
     }
     header {
-        margin: 0 0 80px;
+        margin: 0 0 40px;
     }
     #logo {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
     h1 {
         font-size: 30px;
