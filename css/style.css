@@ -390,7 +390,7 @@ header {
 
 #links {
     position: fixed;
-    bottom: 40px;
+    bottom: 20px;
 }
 
 @media screen and (max-height: 940px) {
@@ -516,7 +516,7 @@ a:focus {}
     }
     #links {
         position: static;
-        margin-top: 80px;
+        margin-top: 60px;
     }
     #face {
         position: static;
