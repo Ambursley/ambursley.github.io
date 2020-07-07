@@ -76,11 +76,11 @@ a {
 }
 
 a:visited {
-    color: #7021FF
+    color: #ed125f
 }
 
 a:hover {
-    color: #7021FF
+    color: #ed125f
 }
 
 a:focus {
@@ -484,7 +484,7 @@ a:hover {
 }
 
 p>a:hover {
-    color: #7021FF;
+    color: #ed125f;
 }
 
 a:active,
