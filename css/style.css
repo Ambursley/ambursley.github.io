@@ -474,7 +474,7 @@ h1 {
 h2 {
     font-family: "MonumentGrotesk",sans-serif;
     font-style: normal;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 25px;
     font-weight: normal;
     font-style: regular;
@@ -576,4 +576,30 @@ a:focus {}
         top: auto;
         bottom: auto;
     }
+
 }
+
+
+@media screen and (max-width: 1200px) {
+    h2 {
+    width: 40%;
+    }
+
+    }
+
+@media screen and (max-width: 1024px) {
+    h2 {
+    width: 40%;
+    }
+
+    }
+@media screen and (max-width: 768px) {
+    h2 {
+    width: 80%;
+    }
+    }
+@media screen and (max-width: 480px) {
+    h2 {
+    width: 100%;
+    }
+    }
